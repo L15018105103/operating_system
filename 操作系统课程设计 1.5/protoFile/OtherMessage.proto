@@ -1,0 +1,6 @@
+option java_package = "proto";
+option java_outer_classname = "OtherMessageProto";
+
+message OtherMessage {
+    required string message = 1; //左下角和右下角的信息
+}

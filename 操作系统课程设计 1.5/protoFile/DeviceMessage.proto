@@ -1,0 +1,10 @@
+option java_package = "proto";
+option java_outer_classname = "DeviceMessageProto";
+
+message DeviceMessage {
+    required string deviceName = 1;
+    required string state = 2;
+    required string usedjobId = 3;
+    required string waitingJobId = 4;
+    required string useTimeSlice = 5;
+}

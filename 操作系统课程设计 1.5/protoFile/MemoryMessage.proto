@@ -1,0 +1,8 @@
+option java_package = "proto";
+option java_outer_classname = "MemoryMessageProto";
+
+message MemoryMessage {
+    required string runningIndex = 1;
+    required int32 replaceBlock = 2;
+    required string memoryValue = 3;
+}

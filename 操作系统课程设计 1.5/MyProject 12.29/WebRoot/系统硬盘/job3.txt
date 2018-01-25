@@ -1,0 +1,6 @@
+mov   ax   9
+mov   bx   3
+mul   ax   bx
+out   "9*3="
+out   ax
+end

@@ -1,0 +1,267 @@
+body{
+    background-image: url(images/homePage.png);
+    background-repeat: no-repeat;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    /*font: 12px/1.5 tahoma, arial, \5b8b\4f53;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: courier new, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+    float: none;
+    height: 0;
+    overflow: hidden;
+}
+
+/*p{font-size: 100px;}*/
+/*********************桌面图标*******************/
+#navigation {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 155px;
+}
+#navigation img {
+    padding-bottom: 10px;
+}
+
+#navigation a {
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 66px 0 0 0;
+    width: 64px;
+    z-index: 200;
+}
+#navigation a#computers.active {
+    background: url(images/computer8.png) no-repeat;
+}
+/*
+#btn {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-style: none;
+    font-size: 16px;
+    top: 3px;
+    left: 5px;
+}
+#btn.active{
+    background: url(images/computer8.png) no-repeat;
+}
+*/
+
+#mask {
+    /*background: #fbf9ee;*//* 设置这遮布的背景颜色，用于后期该遮布大小，大概只有右边半个屏幕大小即可*/
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+}
+
+#login {
+    background: #fff;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+    height: 410px;
+    border: 1px solid #d5d5d5;
+    z-index: 1001;
+}
+
+.title {
+    position: relative;
+    background-color: #f7f7f7;
+    cursor: move;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 30px;
+}
+
+#close {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #ccc;
+    width: 26px;
+    height: 21px;
+    background: url(images/iconClose2.png) no-repeat;
+}
+#close.active{
+    background: url(images/iconClose6.png) no-repeat;
+}
+.content {
+    background: #fff;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+.pt {
+    display: block;
+    height: 38px;
+    padding-left: 15px;
+    border: 1px solid #ddd;
+    transition: .3s;
+    font-size: 14px;
+    color: #666;
+    width: 150px;
+}
+.bl{
+    display: block;
+    font-size: 14px;
+}
+
+.sm {
+    display: block;
+    height: 48px;
+    border: 1px solid #ddd;
+    transition: .3s;
+    font-size: 16px;
+    color: #666;
+    width: 360px;
+    background: #3b7ae3;
+    color: #fff;
+}
+#enterLabel{
+    position:absolute;
+    float:left;
+    top:15%;
+    left: 6%;
+    color: #000000;
+    z-index: 2;
+    font-size: 15px;
+}
+#deviceStatus{
+    background: #fff;
+    position:absolute;
+    float:left;
+    top:15%;
+    left: 26%;
+    color: #000000;
+    z-index: 2;
+    font-size: 15px;
+}
+#useDevice{
+    position:absolute;
+    float:left;
+    top:15%;
+    left: 46%;
+    color: #000000;
+    z-index: 2;
+    font-size: 15px;
+}
+#waitDevice{
+    position:absolute;
+    float:left;
+    top:15%;
+    left: 66%;
+    color: #000000;
+    z-index: 2;
+    font-size: 15px;
+}
+#remainTime{
+    position:absolute;
+    float:left;
+    top:15%;
+    left: 86%;
+    color: #000000;
+    z-index: 2;
+    font-size: 15px;
+}
+#iconImage {
+    position: absolute;
+    top: 26%;
+    left: 62%;
+    width: 155px;
+}
+#iconImage img {
+    padding-bottom: 10px;
+}
+
+#iconImage a {
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 66px 0 0 0;
+    width: 64px;
+    z-index: 200;
+}
+#iconImage a#iconClose {
+    background: url(images/iconClose.png) no-repeat;
+
+}
+#iconImage a#iconClose.active {
+    background: url(images/iconClose1.png) no-repeat;
+}

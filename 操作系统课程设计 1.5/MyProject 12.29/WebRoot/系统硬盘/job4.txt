@@ -1,0 +1,12 @@
+mov   ax   9
+mov   bx   3
+div   
+out   "9/3="
+out   cx
+mov   ax   10
+div
+out   "10/3="
+out   cx
+out   "ำเสýฮชฃบ"
+out   dx
+end

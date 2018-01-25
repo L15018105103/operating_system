@@ -1,0 +1,6 @@
+package protoFile;
+syntax = "proto3";
+
+message TimerMessage {
+    required int64 currentTime = 1;
+}

@@ -1,0 +1,6 @@
+option java_package = "proto";
+option java_outer_classname = "TimerProto";
+
+message Timer {
+    required int64 currentTime = 1;
+}

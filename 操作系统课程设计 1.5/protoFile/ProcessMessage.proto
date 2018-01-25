@@ -1,0 +1,9 @@
+option java_package = "proto";
+option java_outer_classname = "ProcessMessageProto";
+
+message ProcessMessage {
+    required string jobId = 1;
+    required string state=2;
+    required string waitTime=3;
+    required string percentage=4;
+}

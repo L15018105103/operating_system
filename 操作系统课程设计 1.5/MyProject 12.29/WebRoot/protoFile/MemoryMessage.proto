@@ -1,0 +1,8 @@
+ package protoFile;
+ syntax = "proto3";
+
+message MemoryMessage {
+    required int32 runningIndex = 1;
+    required int32 replaceBlock = 2;
+    required string memoryValue = 3;
+}

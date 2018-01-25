@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/server/TextWebSocketFrameHandler.java=UTF-8
+encoding//src/server/WebsocketChatServer.java=GBK
+encoding//src/server/WebsocketChatServerInitializer.java=UTF-8

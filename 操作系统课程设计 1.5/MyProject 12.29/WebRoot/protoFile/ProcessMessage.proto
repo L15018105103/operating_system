@@ -1,0 +1,9 @@
+ package protoFile;
+ syntax = "proto3";
+
+message ProcessMessage {
+    required int32 id = 1;
+    required int32 state=2;
+    required int32 waitTime=3;
+    required int32 percentage=4;
+}

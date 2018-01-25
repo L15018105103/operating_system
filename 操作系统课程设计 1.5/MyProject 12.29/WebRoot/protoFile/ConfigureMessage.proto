@@ -1,0 +1,10 @@
+ package protoFile;
+ syntax = "proto3";
+
+message ConfigureMessage {
+    required int64 timePeriod = 1; // 时钟周期
+    required int32 blockNum = 2; // 内存块数
+    required int32 blockSize = 3; // 内存块的大小
+    required int32 allotNum = 4; // 每个作业分配的页面数
+    required int32 timeSlice = 5; // 时间片的大小
+}

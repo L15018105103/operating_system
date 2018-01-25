@@ -1,0 +1,6 @@
+ package protoFile;
+ syntax = "proto3";
+
+message OtherMessage {
+    required string message = 1;
+}

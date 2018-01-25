@@ -1,0 +1,1428 @@
+/*********************系统运行界面*******************/
+#systemPage{
+    background: url(images/computerPage.png) no-repeat;
+}
+#userArea a {
+    position:absolute;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 29px 100px 0 0;
+    z-index: 2;
+    right: 9%;
+    top: 0%;
+}
+#userArea a#userAreaImage{
+    background: url(images/userArea.png) no-repeat;
+}
+#viewDevice a {
+    position:absolute;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 29px 100px 0 0;
+    z-index: 2;
+    left: 12.3%;
+    top: 0%;
+}
+#viewDevice a#viewDeviceImage{
+    background: url(images/viewDevice.png) no-repeat;
+}
+#exitSystem a {
+    position:absolute;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 29px 100px 0 0;
+    z-index: 2;
+    left: 45%;
+    top: 0%;
+}
+#exitSystem a#exitSystemImage{
+    background: url(images/exitSys.png) no-repeat;
+}
+#systemDisk{
+    position:absolute;
+    background-repeat: no-repeat;
+    top:5%;
+    left: 0%;
+    z-index: 2;
+}
+#systemClock {
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 25%;
+    left: 28%;
+    z-index: 2;
+    color: #eeb420;
+    font-size: 50px;
+}
+/*********************系统运行界面文件栏*******************/
+#systemDiskShow{
+    position:absolute;
+    background-repeat: no-repeat;
+    top:5%;
+    left: 11.3%;
+    z-index: 2;
+    background: url(images/systemDiskShow.png) no-repeat;
+    width: 528px;
+    height: 150px;
+}
+#systemDiskShow #textOne{
+    position: absolute;
+    top: 12%;
+    left: 1%;
+    font-size: 1px;
+}
+#textOneName{
+    position: absolute;
+    top: -1%;
+    left: 20px;
+}
+#textOneSize{
+    position: absolute;
+    top: -1%;
+    left: 238px;
+    width: 100px;
+}
+#textOneTime{
+    position: absolute;
+    top: -1%;
+    left: 390px;
+    width: 100px;
+}
+#textOne a{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 15px 18px 0 0;
+    z-index: 2;
+}
+#textOne a#textOneImage{
+    background: url(images/addImage.png) no-repeat;
+}
+#textOne a#textOneImage.active{
+    opacity: 0.5;
+}
+/*#textOneImage{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    width: 18px;
+    height: 15px;
+}*/
+
+#systemDiskShow #textTwo{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    font-size: 1px;
+}
+#textTwoName{
+    position: absolute;
+    top: -1%;
+    left: 20px;
+}
+#textTwoSize{
+    position: absolute;
+    top: -1%;
+    left: 238px;
+    width: 100px;
+}
+#textTwoTime{
+    position: absolute;
+    top: -1%;
+    left: 390px;
+    width: 100px;
+}
+#textTwo a{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 15px 18px 0 0;
+    z-index: 2;
+}
+#textTwo a#textTwoImage{
+    background: url(images/addImage.png) no-repeat;
+}
+#textTwo a#textTwoImage.active{
+    opacity: 0.5;
+}
+/*
+#textTwoImage{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    width: 18px;
+    height: 15px;
+}
+*/
+
+#systemDiskShow #textThree{
+    position: absolute;
+    top: 38%;
+    left: 1%;
+    font-size: 1px;
+}
+#textThreeName{
+    position: absolute;
+    top: -1%;
+    left: 20px;
+}
+#textThreeSize{
+    position: absolute;
+    top: -1%;
+    left: 238px;
+    width: 100px;
+}
+#textThreeTime{
+    position: absolute;
+    top: -1%;
+    left: 390px;
+    width: 100px;
+}
+#textThree a{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 15px 18px 0 0;
+    z-index: 2;
+}
+#textThree a#textThreeImage{
+    background: url(images/addImage.png) no-repeat;
+}
+#textThree a#textThreeImage.active{
+    opacity: 0.5;
+}
+/*#textThreeImage{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    width: 18px;
+    height: 15px;
+}*/
+/*********************系统运行界面地址栏*******************/
+#virtualMemory{
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 5%;
+    right: 0%;
+    z-index: 2;
+    background: url(images/vMemory.png) no-repeat;
+    width: 677px;
+    height: 295px;
+    overflow: auto;
+}
+#virtualMemory #vMemoryAddressOne
+{
+    position: absolute;
+    color: #000000;
+    top: 5.5%;
+    left: 5%;
+}
+#virtualMemory #vMemoryContentOne
+{
+    position: absolute;
+    color: #000000;
+    top: 5.5%;
+    left: 21.6%;
+}
+#virtualMemory #vMemoryAddressTwo
+{
+    position: absolute;
+    color: #000000;
+    top: 5.5%;
+    right: 46.3%;
+}
+#virtualMemory #vMemoryContentTwo
+{
+    position: absolute;
+    color: #000000;
+    top: 5.5%;
+    right: 24.5%;
+}
+#addr00 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr00 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr00 a#addr00Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr00 a#addr00Content.active {
+    background: #eeb420;
+}
+#address00{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content0{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr01 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr01 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr01 a#addr01Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr01 a#addr01Content.active {
+    background: #eeb420;
+}
+#address01{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content1{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr02 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr02 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr02 a#addr02Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr02 a#addr02Content.active {
+    background: #eeb420;
+}
+#address02{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content2{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+#addr03 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr03 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr03 a#addr03Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr03 a#addr03Content.active {
+    background: #eeb420;
+}
+#address03{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content3{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr10 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr10 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr10 a#addr10Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr10 a#addr10Content.active {
+    background: #eeb420;
+}
+#address10{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content4{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr11 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr11 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr11 a#addr11Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr11 a#addr11Content.active {
+    background: #eeb420;
+}
+#address11{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content5{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr12 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr12 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr12 a#addr12Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr12 a#addr12Content.active {
+    background: #eeb420;
+}
+#address12{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content6{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr13 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr13 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr13 a#addr13Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr13 a#addr13Content.active {
+    background: #eeb420;
+}
+#address13{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content7{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr20 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr20 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr20 a#addr20Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr20 a#addr20Content.active {
+    background: #eeb420;
+}
+#address20{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content8{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr21 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr21 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr21 a#addr21Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr21 a#addr21Content.active {
+    background: #eeb420;
+}
+#address21{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content9{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr22 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr22 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr22 a#addr22Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr22 a#addr22Content.active {
+    background: #eeb420;
+}
+#address22{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content10{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr23 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr23 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr23 a#addr23Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr23 a#addr23Content.active {
+    background: #eeb420;
+}
+#address23{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content11{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+#addr30 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr30 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr30 a#addr30Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr30 a#addr30Content.active {
+    background: #eeb420;
+}
+#address30{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content12{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+
+#addr31 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr31 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr31 a#addr31Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr31 a#addr31Content.active {
+    background: #eeb420;
+}
+#address31{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content13{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+/* #addr31 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr31 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr31 a#addr31Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr31 a#addr31Content.active {
+    background: #eeb420;
+}
+#address31{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content13{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+} */
+
+
+#addr32 {
+    position: absolute;
+    left: -32px;
+    width: 500px;
+    height: 20px;
+}
+#addr32 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 328px;
+}
+#addr32 a#addr32Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr32 a#addr32Content.active {
+    background: #eeb420;
+}
+#address32{
+    position: absolute;
+    top: -1%;
+    left: 6.3%;
+}
+#content14{
+    position: absolute;
+    top: -1%;
+    left: 30.5%;
+}
+
+/* #addr32 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr32 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr32 a#addr32Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr32 a#addr32Content.active {
+    background: #eeb420;
+}
+#address32{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content14{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+} */
+
+
+#addr33 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr33 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr33 a#addr33Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr33 a#addr33Content.active {
+    background: #eeb420;
+}
+#address33{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content15{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr40 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr40 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr40 a#addr40Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr40 a#addr40Content.active {
+    background: #eeb420;
+}
+#address40{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content16{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr41 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr41 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr41 a#addr41Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr41 a#addr41Content.active {
+    background: #eeb420;
+}
+#address41{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content17{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr42 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr42 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr42 a#addr42Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr42 a#addr42Content.active {
+    background: #eeb420;
+}
+#address42{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content18{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr43 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr43 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr43 a#addr43Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr43 a#addr43Content.active {
+    background: #eeb420;
+}
+#address43{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content19{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr50 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr50 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr50 a#addr50Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr50 a#addr50Content.active {
+    background: #eeb420;
+}
+#address50{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content20{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr51 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr51 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr51 a#addr51Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr51 a#addr51Content.active {
+    background: #eeb420;
+}
+#address51{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content21{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr52 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr52 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr52 a#addr52Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr52 a#addr52Content.active {
+    background: #eeb420;
+}
+#address52{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content22{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr53 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr53 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr53 a#addr53Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr53 a#addr53Content.active {
+    background: #eeb420;
+}
+#address53{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content23{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr60 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr60 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr60 a#addr60Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr60 a#addr60Content.active {
+    background: #eeb420;
+}
+#address60{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content24{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+
+#addr61 {
+    position: absolute;
+    left: -32px;
+    width: 343px;
+    height: 20px;
+}
+#addr61 a {
+    display: block;
+    height: 0;
+    margin: 0 0 10px 0;
+    padding: 22px 0 0 0;
+    width: 343px;
+}
+#addr61 a#addr61Content {
+    color: #1f1f1f;
+    background: #fbf9ee;
+    font-size: 15px;
+}
+#addr61 a#addr61Content.active {
+    background: #eeb420;
+}
+#address61{
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+#content25{
+    position: absolute;
+    top: -1%;
+    left: 44%;
+}
+/****************************************/
+#virtualDisk{
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 28%;
+    left: 0%;
+    z-index: 2;
+}
+#relativeClock {
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 38%;
+    z-index: 2;
+    color: #5c5c5c;
+    font-size: 50px;
+}
+#virtualSize1{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 45%;
+    left: 15%;
+    z-index: 2;
+    color: #fbf9ee;
+}
+#diskSize{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: -122px;
+    left: 100%;
+    z-index: 2;
+}
+#virtualSize2{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 45%;
+    right: 25%;
+    z-index: 2;
+    color: #fbf9ee;
+}
+#memorySize{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: -122px;
+    left: 100%;
+    z-index: 2;
+}
+/******************系统运行界面虚拟硬盘栏**********************/
+#virtualDiskShow{
+    position:absolute;
+    background-repeat: no-repeat;
+    top: 28%;
+    left: 11.35%;
+    z-index: 2;
+    background: url(images/vDiskShow.png) no-repeat;
+    width: 526px;
+    height: 148px;
+}
+.job{
+    position: absolute;
+    top: 12%;
+    left: 1%;
+    font-size: 1px;
+}
+.job a{
+    position: absolute;
+    top: -1%;
+    left: 480px;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 16px 15px 0 0;
+    z-index: 2;
+}
+.job a#jobOneRun{
+    background: url(images/runImage.png) no-repeat;
+}
+.job a#jobOneRun.active{
+    opacity: 0.5;
+}
+.job a#jobTwoRun{
+    background: url(images/runImage.png) no-repeat;
+}
+.job a#jobTwoRun.active{
+    opacity: 0.5;
+}
+.job a#jobThreeRun{
+    background: url(images/runImage.png) no-repeat;
+}
+.job a#jobThreeRun.active{
+    opacity: 0.5;
+}
+
+.job span{
+    position: absolute;
+    top: -1%;
+    left: 500px;
+    display: block;
+    float: left;
+    height: 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 16px 18px 0 0;
+    z-index: 2;
+}
+.job span#jobOneSub{
+    background: url(images/subImage.png) no-repeat;
+}
+.job span#jobOneSub.active{
+    opacity: 0.5;
+}
+.job span#jobTwoSub{
+    background: url(images/subImage.png) no-repeat;
+}
+.job span#jobTwoSub.active{
+    opacity: 0.5;
+}
+.job span#jobThreeSub{
+    background: url(images/subImage.png) no-repeat;
+}
+.job span#jobThreeSub.active{
+    opacity: 0.5;
+}
+
+
+.jobId{
+    position: absolute;
+    top: -1%;
+    left: 25px;
+}
+.jobName{
+    position: absolute;
+    top: -1%;
+    left: 173px;
+}
+.jobOrder{
+    position: absolute;
+    top: -1%;
+    left: 320px;
+}
+.jobSize{
+    position: absolute;
+    top: -1%;
+    left: 430px;
+    width: 100px;
+}
+
+/****************进程信息展示************************/
+#messageShow{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 26%;
+    left: 0%;
+    z-index: 2;
+    background: url(images/messageShow.png) no-repeat;
+    width: 1366px;
+    height: 114px;
+}
+#processOne{
+    position: absolute;
+    left: 5%;
+    font: 0.6em verdana, arial, sans-serif;
+    color: #000000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    z-index: 3;
+}
+#processTwo{
+    position: absolute;
+    left: 5%;
+    font: 0.6em verdana, arial, sans-serif;
+    color: #000000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    z-index: 3;
+}
+#processThree{
+    position: absolute;
+    left: 5%;
+    font: 0.6em verdana, arial, sans-serif;
+    color: #000000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    z-index: 3;
+}
+.processId{
+    position: absolute;
+    width: 150px;
+    top: 71%;
+    left: 65%;
+}
+.processStatus{
+    position: absolute;
+    width: 150px;
+    top: 71%;
+    left: 36em;
+}
+.processWaitTime{
+    position: absolute;
+    width: 150px;
+    top: 71%;
+    left: 65.3em;
+}
+.processSchedule{
+    position: absolute;
+    width: 150px;
+    top: 71%;
+    left: 93.5em;
+}
+/****************************************************/
+#statusWindow{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+}
+#virtualDisplay{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 0%;
+    left: 50%;
+    z-index: 2;
+}
+#statusWindowLabel{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 22%;
+    left: 0%;
+    z-index: 2;
+    color: #fbf9ee;
+}
+#statusWindowButton{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 21.5%;
+    left: 20%;
+    z-index: 2;
+    font-size: 10px;
+    width: 100px;
+    height: 25px;
+}
+#virtualScreenButton{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 21.5%;
+    right: 20%;
+    z-index: 2;
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+}
+#virtualScreenLabel{
+    position:absolute;
+    background-repeat: no-repeat;
+    bottom: 22%;
+    left: 50%;
+    z-index: 2;
+    color: #fbf9ee;
+}

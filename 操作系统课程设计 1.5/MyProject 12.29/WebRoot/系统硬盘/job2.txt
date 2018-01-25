@@ -1,0 +1,9 @@
+mov  ax   5
+mov  bx   8
+add  ax   bx
+out  "5+8="
+out  ax
+add  ax  bx
+add  ax  bx
+out  ax
+end

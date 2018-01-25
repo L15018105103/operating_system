@@ -1,0 +1,6 @@
+option java_package = "proto";
+option java_outer_classname = "ResultMessageProto";
+
+message ResultMessage{
+    required string result = 1;
+}

@@ -1,0 +1,10 @@
+ package protoFile;
+ syntax = "proto3";
+
+message FileMessage {
+    required int32 id = 1; //进程id
+    required string fileName = 2; //文件名
+    required string fileValue = 3; //文件内容
+}
+
+

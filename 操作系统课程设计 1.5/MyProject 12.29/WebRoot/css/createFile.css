@@ -1,0 +1,47 @@
+.fileDiv{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #555555;
+    text-decoration: none;
+}
+.file{
+    margin-left: 10%;
+    width: 79%;
+}
+#fileName{
+	margin-top: -2.5em;
+	margin-left: 19%;
+    width: 79%;
+}
+#fileValue{
+    position: absolute;
+    top: 13em;
+}
+#fileContent{
+    margin-left: 12.5em;
+    width: 79%;
+}
+#slider2{
+    margin-left: 5em;
+}
+#buttonSubmit{
+    position: absolute;
+    top: 28.2em;
+    left: 32em;
+    width: 10em;
+}
+#buttonReset{
+    width: 10em;
+    margin-left: 18.3em;
+}
+#buttonDiv{
+    margin-bottom: 1em;
+}
+#fileDirectory{
+    position: absolute;
+    top: 6em;
+    left: 15em;
+    width: 75%;
+}

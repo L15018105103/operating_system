@@ -1,0 +1,4 @@
+mov ax,20
+mov ax,21
+mov ax,22
+mov ax,23

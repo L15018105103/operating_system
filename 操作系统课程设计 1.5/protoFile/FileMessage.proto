@@ -1,0 +1,8 @@
+option java_package = "proto";
+option java_outer_classname = "FileMessageProto";
+
+message FileMessage {
+    required int32 id = 1;
+    required string fileName=2;
+    required string fileValue=3;
+}
